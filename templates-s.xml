@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>Templates Plugin</name>
+   <key>templatesplugin</key>
+   <state>stable</state>
+
+   <description>
+      <short>
+         <en>Allows creating and applying templates to GLPI tickets</en>
+         <ru>Позволяет создавать и применять шаблоны к заявкам GLPI</ru>
+      </short>
+      <long>
+         <en>This plugin lets users define templates with custom fields and apply them when creating tickets in GLPI. Markdown formatting is supported in descriptions.</en>
+         <ru>Плагин позволяет создавать шаблоны с текстовыми полями и применять их при создании заявок. Поддерживается Markdown в описаниях.</ru>
+      </long>
+   </description>
+
+   <homepage>https://github.com/sood-sood/template_s</homepage>
+   <download>https://github.com/sood-sood/templates-s/releases/latest</download>
+   <issues>https://github.com/sood-sood/templates-s/issues</issues>
+   <readme>https://github.com/sood-sood/templates-s/blob/main/README.md</readme>
+
+   <authors>
+      <author>sood-sood</author>
+   </authors>
+
+   <versions>
+      <version>
+         <num>1.0</num>
+         <compatibility>10.0</compatibility>
+         <download_url>https://github.com/sood-sood/templates-s/releases/download/v1.0/templates-s-1.0.tar.bz2</download_url>
+      </version>
+   </versions>
+
+   <langs>
+      <lang>en_GB</lang>
+      <lang>ru_RU</lang>
+   </langs>
+
+   <license>GPL v2+</license>
+
+   <tags>
+      <en>
+         <tag>template</tag>
+         <tag>ticket</tag>
+         <tag>form</tag>
+      </en>
+      <ru>
+         <tag>шаблон</tag>
+         <tag>заявка</tag>
+         <tag>форма</tag>
+      </ru>
+   </tags>
+
+   <screenshots>
+      <screenshot>https://github.com/sood-sood/templates-s/assets/screen1.png</screenshot>
+      <screenshot>https://github.com/sood-sood/templates-s/assets/screen2.png</screenshot>
+   </screenshots>
+</root>
